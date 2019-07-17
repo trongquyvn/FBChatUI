@@ -39,9 +39,7 @@
                 align-items: center;
                 border-bottom: 1pt solid rgba(0, 0, 0, .1);
                 display: flex;
-                flex-basis: 10%;
                 height: 10%;
-                justify-content: space-between;
                 max-height: 48pt;
                 min-height: 36pt;
                 text-align: center;
@@ -117,6 +115,7 @@
                             float: right;
                             background-color: #159399;
                             color: #fff;
+                            max-width: 270px;
                         }
                     }
                 }
@@ -128,6 +127,7 @@
                     width: fit-content;
                     margin-bottom: 1px;
                     font-size: 11pt;
+                    word-wrap: break-word;
                 }
             }
             .c-footer {
